@@ -1,21 +1,69 @@
 <template>
-  <section class="form-section">
+  <section class="form-section text-white">
     <div class="container mx-auto">
-      <div class="">
+      <div class="flex flex-row">
+        <div class="form">
 
+        </div>
+        <div class="flex flex-col pl-5">
+          <div class="">
+            <h4 class="text-white text-4xl  mb-5">ГК ПОЛИТЕХ</h4>
+            <p class="text-gray-300 mb-3">График работы: <span>с 10:00 до 19:00</span></p>
+            <p class="text-gray-300 mb-3">Сб-Вс выходные</p>
+          </div>
+          <div class="flex flex-col">
+            <h4 class="text-white text-2xl py-5">Контакты</h4>
+            <div class="flex flex-col text-gray-300">
+              <div class="flex mb-4">
+                <div>
+                  <img-loader class="contacts-img" name="map"></img-loader>
+                </div>
+                <div>
+                  <p class="pl-5">г. Пермь, ул. Советская, д. 65А, оф. 18, 2 этаж</p>
+                </div>
+              </div>
+              <div class="flex mb-4">
+                <div>
+                  <img-loader class="contacts-img" name="mobile"></img-loader>
+                </div>
+                <div>
+                  <p class="pl-5">+7 (982) 449 36 18</p>
+                </div>
+              </div>
+              <div class="flex mb-4">
+                <div>
+                  <img-loader class="contacts-img" name="envelope-open"></img-loader>
+                </div>
+                <div>
+                  <p class="pl-5">gk.polytech@gmail.com</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </section>
 </template>
 
 <script>
+import ImgLoader from '~/components/ImgLoader';
 
+export default {
+  components: {
+    ImgLoader
+  }
+};
 </script>
 
 <style>
 .form-section {
+    background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url(/_nuxt/assets/img/bg.png);
     background-size: cover;
-    background-image: url(/_nuxt/assets/img/bg.jpg);
     height: 754px;
+}
+.contacts-img {
+  width: 18px;
+  height: 20px;
 }
 </style>
