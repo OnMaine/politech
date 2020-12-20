@@ -20,16 +20,6 @@
           <li><a class="link" href="#">Недвижимость</a></li>
           <li><a class="link" href="#">Консалтинг</a></li>
           <li><a class="link" href="#">Вакансии</a></li>
-          <li>
-            <a class="link-img" href="#">
-              <svg class="inline-flex" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor">
-                <path d="M21 21L15 15M17 10C17 13.866 13.866 17 10 17C6.13401 17 3 13.866 3 10C3 6.13401 6.13401 3 10 3C13.866 3 17 6.13401 17 10Z"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"/>
-              </svg>
-            </a>
-          </li>
         </ul>
       </div>
     </div>

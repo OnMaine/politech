@@ -2,28 +2,20 @@
   <div>
     <MainSection />
     <Cards />
-    <!-- <ServicesSection />
-    <MobileSection />
-    <PresentationSection />
-    <SliderSection />
-    <TeamSection />
-    <HipsterSection />
     <WorksSection />
-    <SliderSection />
-    <RecallSection />
-    <BlogSection />
-    <LocationsSection />
-    <ContactsSection /> -->
+    <WhySection />
+    <FormSection />
   </div>
 </template>
 
 <script>
 import MainSection from '@/components/MainSection'
 import Cards from '@/components/Cards'
-// import MobileSection from '@/components/MobileSection'
+import WorksSection from '@/components/WorksSection'
+import WhySection from '@/components/WhySection'
+import FormSection from '@/components/FormSection'
 // import PresentationSection from '@/components/PresentationSection'
 // import SliderSection from '@/components/SliderSection'
-// import TeamSection from '@/components/TeamSection'
 // import HipsterSection from '@/components/HipsterSection'
 // import WorksSection from '@/components/WorksSection'
 // import RecallSection from '@/components/RecallSection'
@@ -34,10 +26,12 @@ export default {
   components: {
     MainSection,
     Cards,
+    WorksSection,
+    WhySection,
+    FormSection,
     // MobileSection,
     // PresentationSection,
     // SliderSection,
-    // TeamSection,
     // HipsterSection,
     // WorksSection,
     // RecallSection,
