@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section class="main-section">
     <div class="container mx-auto">
       <div class="services-cards grid grid-cols-1 my-5 md:grid-cols-2">
         <div class="main-card">
@@ -53,8 +53,7 @@ export default {
 }
 
 .main-img {
-  width: 35px;
-  height: 40px;
+  @apply h-auto w-12;
 }
 
 </style>

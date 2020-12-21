@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section class="work-section">
     <div class="bg-white container mx-auto text-center py-10">
       <div>
         <h3 class="uppercase text-2xl font-medium">ОСНОВНЫЕ НАПРАВЛЕНИЯ ДЕЯТЕЛЬНОСТИ</h3>

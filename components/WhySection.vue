@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section class="why-section">
     <div class="bg-white container mx-auto text-center py-10">
       <div>
         <h3 class="uppercase text-2xl font-medium">ПОЧЕМУ ВЫБИРАЮТ НАС</h3>

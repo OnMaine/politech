@@ -17,9 +17,7 @@
       </div>
       <div>
         <label class="label" for="phone">Телефон</label>
-        <input type="phone" placeholder="+7 (999)- 999-99-99" name="phone" id="phone" required="" required=""
-               :class="{ phone , error: !email.valid }"
-               v-model="phone.value">
+        <input type="phone" placeholder="+7 (999)- 999-99-99" name="phone" id="phone" required="" v-model="phone">
       </div>
       <div>
         <label class="label" for="email">Email</label>
@@ -51,7 +49,6 @@
 <script>
 
 var emailRegExp = /^[a-zA-Z0-9.!#$%&'*+\/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$/;
-var phoneRegExp = /^\+?7(\d{10})$/;
 
 export default {
   name: 'app',
@@ -59,10 +56,7 @@ export default {
     return {
       name: "",
       surName: "",
-      phone: {
-        value: "",
-        valid: true
-      },
+      phone: "",
       email: {
         value: "",
         valid: true
@@ -83,27 +77,18 @@ export default {
     validate: function(type, value) {
       if (type === "email") {
         this.email.valid = this.isEmail(value) ? true : false;
-      };
-      if (type === "phone") {
-          this.phone.valid = this.isPhone(value) ? true : false;
-        }
+      }
     },
     // check for valid email adress
     isEmail: function(value) {
       return emailRegExp.test(value);
-    },
-    isPhone: function(value) {
-      return phoneRegExp.test(value);
-    },
+    }
   },
   watch: {
     // watching nested property
     "email.value": function(value) {
       this.validate("email", value);
-    },
-    "phone.value": function(value) {
-      this.validate("phone", value);
-    },
+    }
   }
 };
 

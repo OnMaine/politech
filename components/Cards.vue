@@ -1,7 +1,7 @@
 <template>
-  <section>
+  <section class="cards">
     <div class="container mx-auto mb-5">
-      <div class="services-cards grid grid-cols-1 my-10 md:grid-cols-4">
+      <div class="grid grid-cols-1 my-10 md:grid-cols-4">
         <div class="cards-container">
           <div class="flex justify-center">
             <img-loader class="cards-img" name="cogs"></img-loader>
@@ -69,8 +69,6 @@ export default {
 }
 
 .cards-img {
-  width: 50px;
-  height: 60px;
-  @apply pb-5;
+  @apply pb-5 h-auto w-16;
 }
 </style>
