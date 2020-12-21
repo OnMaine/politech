@@ -1,10 +1,8 @@
 <template>
   <section class="form-section text-white">
-    <div class="container mx-auto">
-      <div class="flex flex-row">
-        <div class="form">
-
-        </div>
+    <div class="container mx-auto flex flex-row justify-center px-10 py-10">
+        <Form />
+      <div class="flex flex-row items-center">
         <div class="flex flex-col pl-5">
           <div class="">
             <h4 class="text-white text-4xl  mb-5">ГК ПОЛИТЕХ</h4>
@@ -48,10 +46,12 @@
 
 <script>
 import ImgLoader from '~/components/ImgLoader';
+import Form from '@/components/Form'
 
 export default {
   components: {
-    ImgLoader
+    ImgLoader,
+    Form
   }
 };
 </script>
@@ -60,7 +60,6 @@ export default {
 .form-section {
     background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url(/_nuxt/assets/img/bg.png);
     background-size: cover;
-    height: 754px;
 }
 .contacts-img {
   width: 18px;
