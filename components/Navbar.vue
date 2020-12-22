@@ -45,7 +45,7 @@ export default {
 
 <style>
 .link {
-  @apply px-6 text-white font-bold uppercase border-b-2 border-solid border-black;
+  @apply px-6 text-white font-bold uppercase border-b-2 border-black;
   &:hover,
   &:focus {
     @apply text-orange-300 border-b-2 border-solid border-orange-300;
