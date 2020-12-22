@@ -2,12 +2,12 @@
   <section class="why-section">
     <div class="bg-white container mx-auto text-center py-10">
       <div>
-        <h3 class="uppercase text-2xl font-medium">ПОЧЕМУ ВЫБИРАЮТ НАС</h3>
+        <h3 class="uppercase text-lg md:text-2xl font-medium">ПОЧЕМУ ВЫБИРАЮТ НАС</h3>
       </div>
       <div class="header__line border-b-8 w-20 mx-auto mt-10 mb-2 border-blue-300"></div>
     </div>
     <div class="bg-white container mx-auto">
-      <p class="whitespace-pre-wrap mx-10 mb-20 leading-5">Наши решения строятся на передовых практиках в сфере управленческого консалтинга, исследованиях данных, а также глубоком понимании технологий и принципов проектирования и развития организаций.
+      <p class="whitespace-pre-wrap mx-10 mb-20 leading-5 text-sm md:text-lg">Наши решения строятся на передовых практиках в сфере управленческого консалтинга, исследованиях данных, а также глубоком понимании технологий и принципов проектирования и развития организаций.
 
 Если Вы ищете решения для себя или своего бизнеса, мы готовы предложить проверенные, успешные модели, разработать карту изменений для Вас.
 

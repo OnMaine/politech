@@ -1,6 +1,6 @@
 <template>
-<div id="app">
-  <form class="vue-form" @submit.prevent="submit">
+<div id="app" class="sm:w-11/12 md:w-9/12 lg:w-5/12">
+  <form class="vue-form px-5 md:px-10" @submit.prevent="submit">
     <div class="error-message">
       <p v-show="!email.valid">Введите валидные данные</p>
     </div>
@@ -96,8 +96,7 @@ export default {
 
 <style>
 .vue-form {
-  @apply px-10 py-2 m-auto rounded-md bg-white shadow-2xl;
-  width: 500px;
+  @apply py-2 m-auto rounded-md bg-white shadow-2xl w-full;
 }
 
 .vue-form legend {

@@ -1,12 +1,12 @@
 <template>
   <section class="garants-card">
-    <div class="container mx-auto mb-5 flex flex-row">
-      <div class="text-black flex flex-col w-2/5 p-5">
+    <div class="container mx-auto mb-5 flex flex-col md:flex-row">
+      <div class="text-black flex flex-col md:w-2/5 p-5">
         <div>
           <img src="@/assets/img/handshake-bg.jpg" alt="handshake">
         </div>
-        <h3 class="text-left text-2xl py-6 text-gray-700">ИНДИВИДУАЛЬНЫЙ ПОДХОД</h3>
-        <p>
+        <h3 class="text-center md:text-left text-2xl py-6 text-gray-700">ИНДИВИДУАЛЬНЫЙ ПОДХОД</h3>
+        <p class="text-center md:text-left">
           Мы работаем для того, чтобы наши клиенты жили лучше и богаче, благодаря грамотному управлению своим капиталом.
           Мы анализируем, познаём и затем действуем.  Помогаем клиентам развивать компетенции позволяющие добиваться поставленных целей.
           Формируем будущее вместе.
@@ -14,7 +14,7 @@
       </div>
       <div class="grid grid-cols-1 m-10">
         <div class="garants-cards-container">
-          <div class="garants-title-box">
+          <div class="garants-title-box pt-5 md:pt-0">
             <img-loader class="garants-cards-img" name="clipboard-list-solid"></img-loader>
             <h4>ГАРАНТИИ</h4>
           </div>
@@ -22,7 +22,7 @@
             <p>Каждый заключенный договор обеспечен ценными бумагами, которые находятся в собственности компании.</p>
           </card>
         </div>
-        <div class="garants-cards-container">
+        <div class="garants-cards-container pt-10 md:pt-0">
           <div class="garants-title-box">
             <img-loader class="garants-cards-img" name="search-solid"></img-loader>
             <h4>ПРОЗРАЧНОСТЬ</h4>
@@ -31,7 +31,7 @@
             <p>У каждого инвестора есть возможность по необходимости запросить отчет о состоянии своих инвестиций.</p>
           </card>
         </div>
-        <div class="garants-cards-container">
+        <div class="garants-cards-container pt-10 md:pt-0">
           <div class="garants-title-box">
             <img-loader class="garants-cards-img" name="unlock-alt-solid"></img-loader>
             <h4>БЕЗОПАСНОСТЬ</h4>

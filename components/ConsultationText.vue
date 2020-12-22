@@ -1,22 +1,22 @@
 <template>
   <section class="consultation-text-section">
 
-    <div class="bg-white container mx-auto text-center py-10">
+    <div class="container mx-auto text-center py-10">
       <div>
-        <h3 class="uppercase text-2xl font-medium">ЧТО ПРЕДСТАВЛЯЕТ СОБОЙ АНАЛИЗ ФИНАНСОВОЙ ОТЧЕТНОСТИ ПРЕДПРИЯТИЯ?</h3>
+        <h3 class="uppercase text-xl md:text-2xl font-medium">ЧТО ПРЕДСТАВЛЯЕТ СОБОЙ АНАЛИЗ ФИНАНСОВОЙ ОТЧЕТНОСТИ ПРЕДПРИЯТИЯ?</h3>
       </div>
       <div class="header__line border-b-8 w-20 mx-auto mt-10 mb-2 border-blue-300"></div>
     </div>
     <div class="bg-white container mx-auto">
-      <p class="whitespace-pre-wrap mx-10 mb-5 text-lg">Управление недвижимостью – специфическая деятельность, представляющая собой поддержание или улучшение состояния объекта недвижимости, анализ его развития.
+      <p class="whitespace-pre-wrap mx-5 md:mx-10 mb-5 text-base md:text-lg">Управление недвижимостью – специфическая деятельность, представляющая собой поддержание или улучшение состояния объекта недвижимости, анализ его развития.
 
 Основные цели управления: отличное функционирование объекта, сокращение затрат на его содержание и увеличение прибыли от его использования. </p>
     </div>
 
     <div class="container mx-auto flex flex-row pt-5">
-      <div class="text-black flex flex-row mx-10">
+      <div class="text-black flex flex-col flex-col-reverse md:flex-row mx-5 md:mx-10">
         <div>
-          <h4 class="uppercase text-2xl">КАКИЕ УСЛУГИ ВХОДЯТ В СТОИМОСТЬ:</h4>
+          <h4 class="uppercase text-xl md:text-2xl mt-5 md:mt-0 text-center md:text-left">КАКИЕ УСЛУГИ ВХОДЯТ В СТОИМОСТЬ:</h4>
           <ol type="1" start="1" class="my-5">
             <li class="number-list">Оптимизация и управление финансами</li>
             <li class="number-list">Бизнес-обучение собственников бизнеса, топ менеджеров компаний в финансовой и коммерческой сфере</li>
@@ -25,7 +25,7 @@
             <li class="number-list">Разработка и внедрение системы стимулирования, основаyной на грейдировании KPI</li>
           </ol>
         </div>
-        <div class="w-3/4 p-2">
+        <div class="md:w-3/4 md:p-2">
           <img src="@/assets/img/nedvizhimost.jpg" alt="handshake">
         </div>
       </div>
@@ -33,7 +33,7 @@
 
     <div class="container mx-auto">
       <div class="text-center bg-white">
-        <h3 class="text-3xl my-10 font-medium">Как мы работаем</h3>
+        <h3 class="text-3xl md:my-10 font-medium">Как мы работаем</h3>
       </div>
     </div>
     <div class="container mx-auto mb-5">
@@ -74,16 +74,16 @@
     </div>
 
     <div class="bg-white container mx-auto">
-      <p class="whitespace-pre-wrap mx-10 mb-5 text-lg">Доверительное управление квартирой или офисным помещением позволяет клиенту получать хороший доход в течение долгого периода времени, а все издержки и заботы возьмут на себя специалисты.
+      <p class="whitespace-pre-wrap mx-5 md:mx-10 mb-5 text-base md:text-lg">Доверительное управление квартирой или офисным помещением позволяет клиенту получать хороший доход в течение долгого периода времени, а все издержки и заботы возьмут на себя специалисты.
 
 Право за отслеживанием качества исполнения договора и принятия важных решений остается за собственником. Данное распределение обязанностей помогает увеличить доход от аренды любого объекта, а также повышает уровень их ликвидности.
       </p>
     </div>
 
     <div class="container mx-auto flex flex-row pt-5">
-      <div class="text-black flex flex-row mx-10">
+      <div class="text-black flex flex-col flex-col-reverse md:flex-row mx-5 md:mx-10">
         <div>
-          <h4 class="uppercase text-2xl">СОБСТВЕННИК ПОЛУЧАЕТ СЛЕДУЮЩИЕ ПРЕИМУЩЕСТВА:</h4>
+          <h4 class="uppercase text-xl md:text-2xl mt-5 md:mt-0 text-center md:text-left">СОБСТВЕННИК ПОЛУЧАЕТ СЛЕДУЮЩИЕ ПРЕИМУЩЕСТВА:</h4>
           <ol type="1" start="1" class="my-5">
             <li class="number-list">Прибыль в максимальном размере от сдачи недвижимости</li>
             <li class="number-list">Отсутствие риска попасть в аферу с недобросовестными арендаторами или мошенниками</li>
@@ -93,14 +93,14 @@
             <li class="number-list">Возможность получить консультацию по любым вопросам у руководителя отдела доверительного управления доступного для связи 24/7.</li>
           </ol>
         </div>
-        <div class="w-3/4 p-2">
+        <div class="md:w-3/4 md:p-2">
           <img src="@/assets/img/nedvizhimost.jpg" alt="handshake">
         </div>
       </div>
     </div>
 
-    <div class="bg-white container mx-auto pt-10 pb-5">
-      <p class="whitespace-pre-wrap mx-10 mb-5 text-lg">Вы можете доверить нам управление своей недвижимостью, как на постоянной основе, так и на время Вашего отсутствия в городе.
+    <div class="bg-white container mx-auto md:pt-10 pb-5">
+      <p class="whitespace-pre-wrap mx-5 md:mx-10 mb-5 text-base md:text-lg">Вы можете доверить нам управление своей недвижимостью, как на постоянной основе, так и на время Вашего отсутствия в городе.
 
 Если Вы действительно заинтересованы в максимальной доходности своих недвижимых активов при минимальных затратах времени и сил, то мы с радостью поможем Вам.</p>
     </div>

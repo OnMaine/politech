@@ -1,8 +1,8 @@
 <template>
   <section class="requirement-section">
-    <div class="bg-white container mx-auto my-16">
-      <h4 class="mx-10 mb-5 text-3xl text-center">Основные требования</h4>
-      <ul class="pl-20">
+    <div class="container mx-auto my-16">
+      <h4 class="mx-5 md:mx-10 mb-5 text-xl md:text-3xl text-center">Основные требования</h4>
+      <ul class="px-5 md:px-0 md:pl-20">
        <li class="consulting-list-item-child">Активная жизненная позиция, стрессоустойчивость, пунктуальность, умение работать с возражениями, целеустремленность и ориентация на результат</li>
        <li class="consulting-list-item-child">Опыт работы в банках, финансовых, страховых компаниях или консультационных центрах приветствуется, базовое понимание работы финансовой сферы</li>
        <li class="consulting-list-item-child">Опыт работы с холодными продажами будет являться Вашим преимуществом/li>
@@ -11,8 +11,8 @@
     </div>
 
     <div class="bg-white container mx-auto my-16">
-      <h4 class="mx-10 mb-5 text-3xl text-center">Условия работы</h4>
-      <ul class="pl-20">
+      <h4 class="mx-5 md:mx-10 mb-5 text-xl md:text-3xl text-center">Условия работы</h4>
+      <ul class="px-5 md:px-0 md:pl-20">
        <li class="consulting-list-item-child">Уютный офис в центре города</li>
        <li class="consulting-list-item-child">График работы с 10 до 19 часов</li>
        <li class="consulting-list-item-child">Бесплатное обучение, тренинги, мастер-классы</li>

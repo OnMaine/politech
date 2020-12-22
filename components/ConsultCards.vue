@@ -2,7 +2,7 @@
   <section class="consult-cards">
     <div class="container mx-auto pt-5">
       <div class="text-center bg-white">
-        <h3 class="text-3xl my-10">Кому будет полезна консультация</h3>
+        <h3 class="text-3xl md:my-10">Кому будет полезна консультация</h3>
       </div>
     </div>
     <div class="container mx-auto mb-5">
@@ -31,7 +31,7 @@
           </div>
           <card>
             <h4>ПРЕДПРИНИМАТЕЛЬ, ВЛАДЕЛЕЦ БИЗНЕСА</h4>
-            <p>Мы всегда обеспечиваем индивидуальный подход и во всем ориентируемся на цели и потребности Клиента.</p>
+            <p class="pt-6 md:pt-0">Мы всегда обеспечиваем индивидуальный подход и во всем ориентируемся на цели и потребности Клиента.</p>
           </card>
         </div>
       </div>

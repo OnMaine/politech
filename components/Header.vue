@@ -2,7 +2,7 @@
   <header class="header font-sans leading-relaxed bg-black text-white">
     <div class="container mx-auto">
       <div class="pt-8 pb-4 flex-col justify-center">
-        <h1 class="uppercase text-5xl font-medium text-center">ГРУППА КОМПАНИЙ ПОЛИТЕХ</h1>
+        <h1 class="uppercase text-3xl md:text-5xl font-medium text-center">ГРУППА КОМПАНИЙ ПОЛИТЕХ</h1>
         <div class="header__line border-b-8 w-20 mx-auto my-4 border-blue-300">
         </div>
       </div>

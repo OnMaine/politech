@@ -1,20 +1,20 @@
 <template>
-  <section class="Vacancy-section mx-10">
+  <section class="Vacancy-section mx-5 md:mx-10">
 
     <div class="bg-white container mx-auto text-center py-10">
       <div>
-        <h3 class="uppercase text-2xl font-medium">ОТКРЫТЫЕ ВАКАНСИИ</h3>
+        <h3 class="uppercase text-xl md:text-2xl font-medium">ОТКРЫТЫЕ ВАКАНСИИ</h3>
       </div>
       <div class="header__line border-b-8 w-20 mx-auto mt-10 mb-2 border-blue-300"></div>
     </div>
 
     <div class="bg-white container mx-auto py-10">
       <div>
-        <h3 class="uppercase text-3xl text-purple-800 font-bold">МЕНЕДЖЕР ПО РАБОТЕ С КЛИЕНТАМИ (ОФИС)</h3>
+        <h3 class="uppercase text-xl md:text-3xl text-purple-800 font-bold text-center md:text-left">МЕНЕДЖЕР ПО РАБОТЕ С КЛИЕНТАМИ (ОФИС)</h3>
       </div>
-      <div class="header__line border-b-8 w-20 mt-2 mb-2 border-blue-300"></div>
+      <div class="header__line border-b-8 w-20 mt-2 mb-2 border-blue-300 mx-auto md:mx-0"></div>
       <div class="pt-5">
-        <ul class="bg-gray-100 pl-8 rounded-lg py-3">
+        <ul class="bg-gray-100 pl-3 md:pl-8 rounded-lg py-3">
          <li class="consulting-list-item-child">Консультирование потока клиентов (действующие и потенциальные)</li>
          <li class="consulting-list-item-child">Сопровождение клиента на всех этапах работы</li>
          <li class="consulting-list-item-child">Анализ экономических показателей компаний</li>
@@ -30,11 +30,11 @@
 
     <div class="bg-white container mx-auto pt-5 pb-10">
       <div>
-        <h3 class="uppercase text-3xl text-purple-800 font-bold">МЕНЕДЖЕР ПО РАБОТЕ С КЛИЕНТАМИ (УДАЛЕННАЯ РАБОТА)</h3>
+        <h3 class="uppercase text md:text-3xl text-purple-800 font-bold text-center md:text-left">МЕНЕДЖЕР ПО РАБОТЕ С КЛИЕНТАМИ (УДАЛЕННАЯ РАБОТА)</h3>
       </div>
-      <div class="header__line border-b-8 w-20 mt-2 mb-2 border-blue-300"></div>
+      <div class="header__line border-b-8 w-20 mt-2 mb-2 border-blue-300 mx-auto md:mx-0"></div>
       <div class="pt-5">
-        <ul class="bg-gray-100 pl-8 rounded-lg py-3">
+        <ul class="bg-gray-100 pl-3 md:pl-8 rounded-lg py-3">
          <li class="consulting-list-item-child">Свободный график работы</li>
          <li class="consulting-list-item-child">Удаленное консультирование клиентов (действующие и потенциальные)</li>
          <li class="consulting-list-item-child">Сопровождение клиента на всех этапах работы </li>
@@ -48,11 +48,11 @@
 
     <div class="bg-white container mx-auto pt-5 pb-10">
       <div>
-        <h3 class="uppercase text-3xl text-purple-800 font-bold">ОФИС-МЕНЕДЖЕР (АДМИНИСТРАТОР)</h3>
+        <h3 class="uppercase text md:text-3xl text-purple-800 font-bold text-center md:text-left">ОФИС-МЕНЕДЖЕР (АДМИНИСТРАТОР)</h3>
       </div>
-      <div class="header__line border-b-8 w-20 mt-2 mb-2 border-blue-300"></div>
+      <div class="header__line border-b-8 w-20 mt-2 mb-2 border-blue-300 mx-auto md:mx-0"></div>
       <div class="pt-5">
-        <ul class="bg-gray-100 pl-8 rounded-lg py-3">
+        <ul class="bg-gray-100 pl-3 md:pl-8 rounded-lg py-3">
          <li class="consulting-list-item-child">Консультирование потока клиентов (действующие и потенциальные) </li>
          <li class="consulting-list-item-child">Встреча посетителей</li>
          <li class="consulting-list-item-child">Сопровождение клиента на всех этапах работы </li>
@@ -68,11 +68,11 @@
 
     <div class="bg-white container mx-auto pt-5 pb-10">
       <div>
-        <h3 class="uppercase text-3xl text-purple-800 font-bold">МЕНЕДЖЕР SMM ПРОДАЖ (УДАЛЕННАЯ РАБОТА)</h3>
+        <h3 class="uppercase text md:text-3xl text-purple-800 font-bold text-center md:text-left">МЕНЕДЖЕР SMM ПРОДАЖ (УДАЛЕННАЯ РАБОТА)</h3>
       </div>
-      <div class="header__line border-b-8 w-20 mt-2 mb-2 border-blue-300"></div>
+      <div class="header__line border-b-8 w-20 mt-2 mb-2 border-blue-300 mx-auto md:mx-0"></div>
       <div class="pt-5">
-        <ul class="bg-gray-100 pl-8 rounded-lg py-3">
+        <ul class="bg-gray-100 pl-3 md:pl-8 rounded-lg py-3">
          <li class="consulting-list-item-child">Свободный график работы</li>
          <li class="consulting-list-item-child">Работа с социальными сетями</li>
          <li class="consulting-list-item-child">Подготовка публикаций для интернет-площадок</li>
@@ -86,11 +86,11 @@
 
     <div class="bg-white container mx-auto pt-5 pb-10">
       <div>
-        <h3 class="uppercase text-3xl text-purple-800 font-bold">МАРКЕТОЛОГ</h3>
+        <h3 class="uppercase text md:text-3xl text-purple-800 font-bold text-center md:text-left">МАРКЕТОЛОГ</h3>
       </div>
-      <div class="header__line border-b-8 w-20 mt-2 mb-2 border-blue-300"></div>
+      <div class="header__line border-b-8 w-20 mt-2 mb-2 border-blue-300 mx-auto md:mx-0"></div>
       <div class="pt-5">
-        <ul class="bg-gray-100 pl-8 rounded-lg py-3">
+        <ul class="bg-gray-100 pl-3 md:pl-8 rounded-lg py-3">
          <li class="consulting-list-item-child">Анализ сайтов для увеличения конверсионности (контент, трафик, поведение)</li>
          <li class="consulting-list-item-child">Ведение нескольких проектов параллельно </li>
          <li class="consulting-list-item-child">Работа с контекстной и таргетированной рекламой (Google Ads, Яндекc.Директ, Вконтакте, Facebook)</li>
@@ -110,11 +110,11 @@
 
     <div class="bg-white container mx-auto pt-5 pb-10">
       <div>
-        <h3 class="uppercase text-3xl text-purple-800 font-bold">БЛОГЕР</h3>
+        <h3 class="uppercase text md:text-3xl text-purple-800 font-bold text-center md:text-left">БЛОГЕР</h3>
       </div>
-      <div class="header__line border-b-8 w-20 mt-2 mb-2 border-blue-300"></div>
+      <div class="header__line border-b-8 w-20 mt-2 mb-2 border-blue-300 mx-auto md:mx-0"></div>
       <div class="pt-5">
-        <ul class="bg-gray-100 pl-8 rounded-lg py-3">
+        <ul class="bg-gray-100 pl-3 md:pl-8 rounded-lg py-3">
          <li class="consulting-list-item-child">Свободный график работы</li>
          <li class="consulting-list-item-child">Работа с социальными сетями</li>
          <li class="consulting-list-item-child">Подготовка публикаций для интернет-площадок</li>
@@ -132,11 +132,11 @@
 
     <div class="bg-white container mx-auto pt-5 pb-10">
       <div>
-        <h3 class="uppercase text-3xl text-purple-800 font-bold">РЕГИОНАЛЬНЫЙ МЕНЕДЖЕР</h3>
+        <h3 class="uppercase text md:text-3xl text-purple-800 font-bold text-center md:text-left">РЕГИОНАЛЬНЫЙ МЕНЕДЖЕР</h3>
       </div>
-      <div class="header__line border-b-8 w-20 mt-2 mb-2 border-blue-300"></div>
+      <div class="header__line border-b-8 w-20 mt-2 mb-2 border-blue-300 mx-auto md:mx-0"></div>
       <div class="pt-5">
-        <ul class="bg-gray-100 pl-8 rounded-lg py-3">
+        <ul class="bg-gray-100 pl-3 md:pl-8 rounded-lg py-3">
          <li class="consulting-list-item-child">Поиск, привлечение и обучение партнеров компании</li>
          <li class="consulting-list-item-child">Заключение договоров с новыми партнерами</li>
          <li class="consulting-list-item-child">Формирование и выставление коммерческих предложений</li>
@@ -154,11 +154,11 @@
 
     <div class="bg-white container mx-auto pt-5 pb-10">
       <div>
-        <h3 class="uppercase text-3xl text-purple-800 font-bold">ФИНАНСОВЫЙ КОНСУЛЬТАНТ (ОФИС)</h3>
+        <h3 class="uppercase text md:text-3xl text-purple-800 font-bold text-center md:text-left">ФИНАНСОВЫЙ КОНСУЛЬТАНТ (ОФИС)</h3>
       </div>
-      <div class="header__line border-b-8 w-20 mt-2 mb-2 border-blue-300"></div>
+      <div class="header__line border-b-8 w-20 mt-2 mb-2 border-blue-300 mx-auto md:mx-0"></div>
       <div class="pt-5">
-        <ul class="bg-gray-100 pl-8 rounded-lg py-3">
+        <ul class="bg-gray-100 pl-3 md:pl-8 rounded-lg py-3">
          <li class="consulting-list-item-child">Консультирование потока клиентов (действующие и потенциальные) </li>
          <li class="consulting-list-item-child">Сопровождение клиента на всех этапах работы </li>
          <li class="consulting-list-item-child">Анализ экономических показателей компаний </li>
@@ -174,11 +174,11 @@
 
     <div class="bg-white container mx-auto pt-5 pb-10">
       <div>
-        <h3 class="uppercase text-3xl text-purple-800 font-bold">ФИНАНСОВЫЙ КОНСУЛЬТАНТ (УДАЛЕННАЯ РАБОТА)</h3>
+        <h3 class="uppercase text md:text-3xl text-purple-800 font-bold text-center md:text-left">ФИНАНСОВЫЙ КОНСУЛЬТАНТ (УДАЛЕННАЯ РАБОТА)</h3>
       </div>
-      <div class="header__line border-b-8 w-20 mt-2 mb-2 border-blue-300"></div>
+      <div class="header__line border-b-8 w-20 mt-2 mb-2 border-blue-300 mx-auto md:mx-0"></div>
       <div class="pt-5">
-        <ul class="bg-gray-100 pl-8 rounded-lg py-3">
+        <ul class="bg-gray-100 pl-3 md:pl-8 rounded-lg py-3">
          <li class="consulting-list-item-child">Свободный график работы </li>
          <li class="consulting-list-item-child">Удаленное консультирование клиентов (действующие и потенциальные) </li>
          <li class="consulting-list-item-child">Сопровождение клиента на всех этапах работы </li>
@@ -192,11 +192,11 @@
 
     <div class="bg-white container mx-auto pt-5 pb-10">
       <div>
-        <h3 class="uppercase text-3xl text-purple-800 font-bold">АНАЛИТИК (ОФИС)</h3>
+        <h3 class="uppercase text md:text-3xl text-purple-800 font-bold text-center md:text-left">АНАЛИТИК (ОФИС)</h3>
       </div>
-      <div class="header__line border-b-8 w-20 mt-2 mb-2 border-blue-300"></div>
+      <div class="header__line border-b-8 w-20 mt-2 mb-2 border-blue-300 mx-auto md:mx-0"></div>
       <div class="pt-5">
-        <ul class="bg-gray-100 pl-8 rounded-lg py-3">
+        <ul class="bg-gray-100 pl-3 md:pl-8 rounded-lg py-3">
          <li class="consulting-list-item-child">Сбор данных по экономическим показателям</li>
          <li class="consulting-list-item-child">Анализ экономических показателей компаний</li>
          <li class="consulting-list-item-child">Ведение отчетности</li>
@@ -207,11 +207,11 @@
 
     <div class="bg-white container mx-auto pt-5 pb-10">
       <div>
-        <h3 class="uppercase text-3xl text-purple-800 font-bold">АНАЛИТИК (УДАЛЕННАЯ РАБОТА)</h3>
+        <h3 class="uppercase text md:text-3xl text-purple-800 font-bold text-center md:text-left">АНАЛИТИК (УДАЛЕННАЯ РАБОТА)</h3>
       </div>
-      <div class="header__line border-b-8 w-20 mt-2 mb-2 border-blue-300"></div>
+      <div class="header__line border-b-8 w-20 mt-2 mb-2 border-blue-300 mx-auto md:mx-0"></div>
       <div class="pt-5">
-        <ul class="bg-gray-100 pl-8 rounded-lg py-3">
+        <ul class="bg-gray-100 pl-3 md:pl-8 rounded-lg py-3">
          <li class="consulting-list-item-child">Сбор данных по экономическим показателям</li>
          <li class="consulting-list-item-child">Анализ экономических показателей компаний</li>
          <li class="consulting-list-item-child">Ведение отчетности</li>
@@ -222,11 +222,11 @@
 
     <div class="bg-white container mx-auto pt-5 pb-10">
       <div>
-        <h3 class="uppercase text-3xl text-purple-800 font-bold">СПЕЦИАЛИСТ ПО РАБОТЕ С ДОКУМЕНТАМИ</h3>
+        <h3 class="uppercase text md:text-3xl text-purple-800 font-bold text-center md:text-left">СПЕЦИАЛИСТ ПО РАБОТЕ С ДОКУМЕНТАМИ</h3>
       </div>
-      <div class="header__line border-b-8 w-20 mt-2 mb-2 border-blue-300"></div>
+      <div class="header__line border-b-8 w-20 mt-2 mb-2 border-blue-300 mx-auto md:mx-0"></div>
       <div class="pt-5">
-        <ul class="bg-gray-100 pl-8 rounded-lg py-3">
+        <ul class="bg-gray-100 pl-3 md:pl-8 rounded-lg py-3">
          <li class="consulting-list-item-child">Ведение документооборота компании (бумажного и электронного), контроль своевременной обработки поступающей и отправляемой корреспонденции, ее доставки по назначению </li>
          <li class="consulting-list-item-child">Контроль качества подготовки, правильности составления, согласования, утверждения документов, представляемых на подпись руководству компании </li>
          <li class="consulting-list-item-child">Сбор данных по экономическим показателям </li>

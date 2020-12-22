@@ -7,7 +7,7 @@
            <img-loader class="main-img" name="check"></img-loader>
           </div>
           <div>
-            <p class="pl-5">Если Вы ищете готовые решения для себя или своего бизнеса, мы готовы предложить проверенные,
+            <p class="pl-5 text-xs md:text-lg">Если Вы ищете готовые решения для себя или своего бизнеса, мы готовы предложить проверенные,
               успешные модели и разработать уникальное предложение именно для Вас.</p>
           </div>
         </div>
@@ -16,7 +16,7 @@
             <img-loader class="main-img" name="child"></img-loader>
           </div>
           <div>
-            <p class="pl-5">За нашими плечами 8 лет успешной работы и поступательного развития. Мы развиваемся как в плане расширения
+            <p class="pl-5 text-xs md:text-lg">За нашими плечами 8 лет успешной работы и поступательного развития. Мы развиваемся как в плане расширения
               самой компании и диапазона предоставляемых услуг, так и в плане повышения сервиса и качества.</p>
           </div>
         </div>
@@ -24,7 +24,7 @@
     </div>
     <div class="bg-white container mx-auto text-center py-8">
       <div>
-        <h2 class="text-2xl font-medium text-black mt-2">
+        <h2 class="text-lg md:text-2xl font-medium text-black mt-2">
           Наши услуги получают наилучшие отзывы и обладают <br>
           многочисленными конкурентными преимуществами
         </h2>
@@ -48,7 +48,7 @@ export default {
 .main-card {
   @apply flex justify-center items-center p-5;
   & p {
-    @apply pr-5 text-black text-lg;
+    @apply pr-5 text-black;
   }
 }
 
