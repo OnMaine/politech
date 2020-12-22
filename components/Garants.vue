@@ -3,7 +3,7 @@
     <div class="container mx-auto mb-5 flex flex-row">
       <div class="text-black flex flex-col w-2/5 p-5">
         <div>
-          <img src="/_nuxt/assets/img/handshake-bg.jpg" alt="handshake">
+          <img src="@/assets/img/handshake-bg.jpg" alt="handshake">
         </div>
         <h3 class="text-left text-2xl py-6 text-gray-700">ИНДИВИДУАЛЬНЫЙ ПОДХОД</h3>
         <p>

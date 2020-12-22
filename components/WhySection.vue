@@ -29,12 +29,5 @@
 </script>
 
 <style>
-.works-list-item {
-  @apply text-lg;
-  &::before {
-  content: "*";
-  top: 100%;
- }
-}
 
 </style>

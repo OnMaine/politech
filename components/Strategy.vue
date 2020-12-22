@@ -1,12 +1,14 @@
 <template>
   <section class="strategy">
-    <div class="text-center bg-white container mx-auto">
-      <p class="text-2xl text-black pb-3">Стратегия управления активами</p>
+    <div class="container mx-auto">
+      <div class="text-center bg-white container mx-auto">
+        <p class="text-2xl text-black pb-3">Стратегия управления активами</p>
+      </div>
     </div>
     <div class="container mx-auto mb-5 flex flex-row">
       <div class="text-black flex flex-col w-2/4 p-5">
         <div>
-          <img src="/_nuxt/assets/img/strategy-bg.jpg" alt="handshake">
+          <img src="@/assets/img/strategy-bg.jpg" alt="handshake">
         </div>
         <h3 class="text-left text-2xl py-6 text-gray-700">ОСНОВНОЙ ПРИНЦИП</h3>
         <p class="whitespace-pre-wrap leading-5">Мы не делим риски со своими Клиентами

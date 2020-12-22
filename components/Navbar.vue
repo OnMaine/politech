@@ -17,19 +17,19 @@
           <nuxt-link active-class="active" class="link" to="/actives">
             Активы
           </nuxt-link>
-          <nuxt-link active-class="active" class="link" to="/actives">
+          <nuxt-link active-class="active" class="link" to="/consultation">
             Инвестиции
           </nuxt-link>
-          <nuxt-link active-class="active" class="link" to="/actives">
+          <nuxt-link active-class="active" class="link" to="/analysis">
             Анализ
           </nuxt-link>
-          <nuxt-link active-class="active" class="link" to="/actives">
+          <nuxt-link active-class="active" class="link" to="/immovables">
             Недвижимость
           </nuxt-link>
-          <nuxt-link active-class="active" class="link" to="/actives">
+          <nuxt-link active-class="active" class="link" to="/consulting">
             Консалтинг
           </nuxt-link>
-          <nuxt-link active-class="active" class="link" to="/actives">
+          <nuxt-link active-class="active" class="link" to="/vacancy">
             Вакансии
           </nuxt-link>
         </ul>
