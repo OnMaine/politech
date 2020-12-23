@@ -1,6 +1,6 @@
 <template>
 <div id="app" class="sm:w-11/12 md:w-9/12 lg:w-5/12">
-  <form class="vue-form px-5 md:px-10" @submit.prevent="submit">
+  <form class="vue-form px-5 md:px-10"action="send.php" method="post">
     <div class="error-message">
       <p v-show="!email.valid">Введите валидные данные</p>
     </div>

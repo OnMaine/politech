@@ -58,7 +58,7 @@ export default {
 
 <style>
 .form-section {
-    background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url(/_nuxt/assets/img/bg.png);
+    background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url(@/assets/img//bg.png);
     background-size: cover;
 }
 .contacts-img {
