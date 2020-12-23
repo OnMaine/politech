@@ -94,7 +94,7 @@
           </ol>
         </div>
         <div class="md:w-3/4 md:p-2">
-          <img src="@/assets/img/nedvizhimost2.jpg" alt="handshake">
+          <img src="@/assets/img/nedvizhimost-house.jpeg" alt="handshake">
         </div>
       </div>
     </div>
