@@ -69,6 +69,6 @@ export default {
 }
 
 .cards-img {
-  @apply pb-5 h-auto w-16;
+  @apply h-auto pb-5 w-16;
 }
 </style>

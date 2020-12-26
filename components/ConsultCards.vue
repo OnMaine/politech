@@ -9,7 +9,7 @@
       <div class="grid grid-cols-1 my-10 md:grid-cols-3">
         <div class="consult-cards-container">
           <div class="flex justify-center">
-            <img-loader class=" pb-2 h-auto w-10" name="child"></img-loader>
+            <img-loader class=" pb-2 w-10" name="child"></img-loader>
           </div>
           <card>
             <h4>НАЧИНАЮЩИЙ ИНВЕСТОР</h4>
@@ -73,7 +73,7 @@
         </div>
         <div class="consult-cards-container">
           <div class="flex justify-center">
-            <img-loader class="pb-5 h-auto w-16" name="comments-dollar-solid"></img-loader>
+            <img-loader class="pb-5 w-16" name="comments-dollar-solid"></img-loader>
           </div>
           <card>
             <h4>ПРОВОДИМ КОНСУЛЬТАЦИЮ</h4>

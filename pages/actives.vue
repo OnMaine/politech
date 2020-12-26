@@ -7,7 +7,6 @@
     <Garants/>
     <RedText/>
     <Strategy/>
-    <FormSection />
   </div>
 </template>
 
@@ -19,7 +18,6 @@ import CompanyGalarySecond from '@/components/CompanyGalarySecond'
 import Garants from '@/components/Garants'
 import RedText from '@/components/RedText'
 import Strategy from '@/components/Strategy'
-import FormSection from '@/components/FormSection'
 
 export default {
   components: {
@@ -29,8 +27,7 @@ export default {
     CompanyGalarySecond,
     Garants,
     RedText,
-    Strategy,
-    FormSection,
+    Strategy
   }
 };
 </script>

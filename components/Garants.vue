@@ -70,7 +70,7 @@ export default {
 }
 
 .garants-cards-img {
-  @apply w-6 h-auto;
+  @apply h-auto w-6;
 }
 
 .garants-title-box {

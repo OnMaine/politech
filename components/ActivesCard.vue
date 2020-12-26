@@ -28,7 +28,7 @@
         </div>
         <div class="actives-cards-container">
           <div>
-            <img-loader class="pb-5 w-24 h-auto pt-6 md:pt-0" name="handshake-solid"></img-loader>
+            <img-loader class="pb-5 w-24 pt-6 md:pt-0" name="handshake-solid"></img-loader>
           </div>
           <card>
             <p class=" px-2 md:px-10">Нам доверяют свой капитал управляющие банков, владельцы малого и среднего бизнеса, простые граждане и пенсионеры.</p>
@@ -62,6 +62,6 @@ export default {
 }
 
 .actives-cards-img {
-  @apply pb-5 w-16 h-auto;
+  @apply pb-5 h-auto w-16;
 }
 </style>

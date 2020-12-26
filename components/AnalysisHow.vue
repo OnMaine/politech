@@ -17,7 +17,7 @@
         </div>
         <div class="analysis-cards-container">
           <div class="flex justify-center">
-            <img-loader class="pb-5 h-auto w-10" name="file-word-regular"></img-loader>
+            <img-loader class="pb-5 w-10" name="file-word-regular"></img-loader>
           </div>
           <card>
             <p>Заключаем индивидуальный договор</p>
@@ -25,7 +25,7 @@
         </div>
         <div class="analysis-cards-container">
           <div class="flex justify-center">
-            <img-loader class="pb-5 h-auto w-16 " name="cogs"></img-loader>
+            <img-loader class="pb-5 w-16 " name="cogs"></img-loader>
           </div>
           <card>
             <p class="">Наш специалист приступает к работе</p>
@@ -33,7 +33,7 @@
         </div>
         <div class="analysis-cards-container">
           <div class="flex justify-center">
-            <img-loader class="pb-5 h-auto w-16" name="money-bill-alt-solid"></img-loader>
+            <img-loader class="pb-5 w-16" name="money-bill-alt-solid"></img-loader>
           </div>
           <card>
             <p>Вы производите оплату и получаете готовый отчет</p>
