@@ -1,5 +1,5 @@
 <template>
-    <img :src="require(`@/assets/img/`+`${name}`+`.png`)" >
+    <img :src="require(`@/assets/img/`+`${name}`+`.png`)" class="items-center self-center">
 </template>
 
 <script>

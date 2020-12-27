@@ -24,8 +24,8 @@
           <div class="flex justify-center">
             <img-loader class="cards-img" name="user"></img-loader>
           </div>
-          <card>
-            <h4>Клиентоориентированность</h4>
+          <card class="flex-wrap break-words">
+            <h4 сclass="break-words">Клиентоориентированность</h4>
             <p>Мы всегда обеспечиваем индивидуальный подход и во всем ориентируемся на цели и потребности Клиента.</p>
           </card>
         </div>

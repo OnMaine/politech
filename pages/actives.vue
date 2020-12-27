@@ -1,9 +1,9 @@
 <template>
   <div>
     <ActivesSection/>
-    <CompanyGalaryFirst />
+    <SliderFirst />
     <ActivesCard/>
-    <CompanyGalarySecond />
+    <SliderSecond />
     <Garants/>
     <RedText/>
     <Strategy/>
@@ -12,9 +12,9 @@
 
 <script>
 import ActivesSection from '@/components/ActivesSection'
-import CompanyGalaryFirst from '@/components/CompanyGalaryFirst'
+import SliderFirst from '@/components/SliderFirst'
 import ActivesCard from '@/components/ActivesCard'
-import CompanyGalarySecond from '@/components/CompanyGalarySecond'
+import SliderSecond from '@/components/SliderSecond'
 import Garants from '@/components/Garants'
 import RedText from '@/components/RedText'
 import Strategy from '@/components/Strategy'
@@ -22,9 +22,9 @@ import Strategy from '@/components/Strategy'
 export default {
   components: {
     ActivesSection,
-    CompanyGalaryFirst,
+    SliderFirst,
     ActivesCard,
-    CompanyGalarySecond,
+    SliderSecond,
     Garants,
     RedText,
     Strategy
