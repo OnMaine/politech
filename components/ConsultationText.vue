@@ -3,7 +3,7 @@
 
     <div class="container mx-auto text-center py-10">
       <div>
-        <h3 class="uppercase text-xl md:text-2xl font-medium">ЧТО ПРЕДСТАВЛЯЕТ СОБОЙ АНАЛИЗ ФИНАНСОВОЙ ОТЧЕТНОСТИ ПРЕДПРИЯТИЯ?</h3>
+        <h3 class="uppercase text-xl md:text-2xl font-medium">Управление недвижимостью</h3>
       </div>
       <div class="header__line border-b-8 w-20 mx-auto mt-10 mb-2 border-blue-300"></div>
     </div>
