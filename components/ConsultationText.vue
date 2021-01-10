@@ -37,10 +37,10 @@
       </div>
     </div>
     <div class="container mx-auto mb-5">
-      <div class="grid grid-cols-1 my-10 md:grid-cols-4">
+      <div class="grid grid-cols-1 my-10 md:grid-cols-4 text-center">
         <div class="analysis-cards-container">
           <div class="flex justify-center">
-            <img-loader class="consult-cards-img" name="phone-square-alt-solid"></img-loader>
+            <img-loader class="pb-5 w-10" name="phone-square-alt-solid"></img-loader>
           </div>
           <card>
             <p>Вы оставляете заявку или звоните</p>
@@ -48,7 +48,7 @@
         </div>
         <div class="analysis-cards-container">
           <div class="flex justify-center">
-            <img-loader class="pb-5 w-10 " name="child"></img-loader>
+            <img-loader class="pb-5 w-10" name="child"></img-loader>
           </div>
           <card>
             <p class="">Наш специалист выезжает на объект</p>
